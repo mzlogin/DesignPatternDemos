@@ -18,6 +18,8 @@ int _tmain(int argc, wchar_t** argv)
 	// 可怜的鸭子，被我们弄得不能飞了
 	pDuck->SetFlyBehaviour(new CFlyNoWay());
 	pDuck->PeformFly();
+	
+	delete pDuck;
 
 	return 0;
 }
