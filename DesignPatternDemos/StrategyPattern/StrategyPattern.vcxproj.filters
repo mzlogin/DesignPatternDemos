@@ -18,5 +18,31 @@
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyBehaviour.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackBehaviour.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Duck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBehaviour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehaviour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
