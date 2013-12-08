@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StrategyPattern", "StrategyPattern\StrategyPattern.vcxproj", "{67404478-4BA5-4086-9DB9-1012CEF3E4BD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObserverPattern", "ObserverPattern\ObserverPattern.vcxproj", "{30C3BB29-9096-4F07-B0D0-ACAD8DCA55F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{67404478-4BA5-4086-9DB9-1012CEF3E4BD}.Debug|Win32.Build.0 = Debug|Win32
 		{67404478-4BA5-4086-9DB9-1012CEF3E4BD}.Release|Win32.ActiveCfg = Release|Win32
 		{67404478-4BA5-4086-9DB9-1012CEF3E4BD}.Release|Win32.Build.0 = Release|Win32
+		{30C3BB29-9096-4F07-B0D0-ACAD8DCA55F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30C3BB29-9096-4F07-B0D0-ACAD8DCA55F3}.Debug|Win32.Build.0 = Debug|Win32
+		{30C3BB29-9096-4F07-B0D0-ACAD8DCA55F3}.Release|Win32.ActiveCfg = Release|Win32
+		{30C3BB29-9096-4F07-B0D0-ACAD8DCA55F3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
