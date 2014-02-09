@@ -18,5 +18,19 @@
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Beverage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseBlend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Beverage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HouseBlend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

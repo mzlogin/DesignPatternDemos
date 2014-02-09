@@ -1,9 +1,9 @@
 #include "Beverage.h"
 
-string CBeverage::m_strDescription = "Unknow beverage";
-
 CBeverage::CBeverage()
-{}
+{
+	m_strDescription = "Unknow beverage";
+}
 
 CBeverage::~CBeverage()
 {}

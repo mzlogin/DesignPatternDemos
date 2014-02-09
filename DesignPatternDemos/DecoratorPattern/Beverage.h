@@ -16,8 +16,8 @@ public:
 	~CBeverage();
 
 	string GetDescription();
-	virtual void Cost() = 0;
+	virtual double Cost() = 0;
 
-private:
-	static string m_strDescription;
+protected:
+	string m_strDescription;
 };
