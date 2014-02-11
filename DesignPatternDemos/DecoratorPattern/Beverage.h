@@ -13,7 +13,7 @@ class CBeverage
 {
 public:
 	CBeverage();
-	~CBeverage();
+	virtual ~CBeverage();
 
 	string GetDescription();
 	virtual double Cost() = 0;
