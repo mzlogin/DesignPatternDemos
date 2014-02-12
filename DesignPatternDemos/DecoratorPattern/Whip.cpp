@@ -11,7 +11,13 @@ CWhip::CWhip(CBeverage* pBeverage)
 }
 
 CWhip::~CWhip()
-{}
+{
+	if (m_pBeverage)
+	{
+		delete m_pBeverage;
+		m_pBeverage = NULL;
+	}
+}
 
 double CWhip::Cost()
 {

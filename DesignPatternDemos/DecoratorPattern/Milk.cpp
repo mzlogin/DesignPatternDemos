@@ -11,7 +11,13 @@ CMilk::CMilk(CBeverage* pBeverage)
 }
 
 CMilk::~CMilk()
-{}
+{
+	if (m_pBeverage)
+	{
+		delete m_pBeverage;
+		m_pBeverage = NULL;
+	}
+}
 
 double CMilk::Cost()
 {

@@ -11,7 +11,13 @@ CMocha::CMocha(CBeverage* pBeverage)
 }
 
 CMocha::~CMocha()
-{}
+{
+	if (m_pBeverage)
+	{
+		delete m_pBeverage;
+		m_pBeverage = NULL;
+	}
+}
 
 double CMocha::Cost()
 {

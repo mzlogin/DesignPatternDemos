@@ -11,7 +11,13 @@ CSoy::CSoy(CBeverage* pBeverage)
 }
 
 CSoy::~CSoy()
-{}
+{
+	if (m_pBeverage)
+	{
+		delete m_pBeverage;
+		m_pBeverage = NULL;
+	}
+}
 
 double CSoy::Cost()
 {

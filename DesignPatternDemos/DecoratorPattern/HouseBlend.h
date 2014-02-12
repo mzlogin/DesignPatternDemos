@@ -5,6 +5,7 @@
 @version 0.0.0.1
 @date 2014-2-9
 */
+#pragma once
 
 #include "Beverage.h"
 

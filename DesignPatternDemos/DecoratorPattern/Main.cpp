@@ -16,8 +16,10 @@ int _tmain(int argc, wchar_t** argv)
 	pBeverage = new CMocha(pBeverage);
 	pBeverage = new CMilk(pBeverage);
 
-	printf("It's description : %s\n", pBeverage->GetDescription());
-	printf("It's cost %d\n", pBeverage->Cost());
+	printf("It's description : %s\n", pBeverage->GetDescription().c_str());
+	printf("It's cost %.2f\n", pBeverage->Cost());
+
+	delete pBeverage;
 
 	return 0;
 }
