@@ -1,19 +1,19 @@
 /**
-@file HouseBlend.h
+@file Espresso.h
 @author ChumpMa#gmail.com
-@brief ¼Ò³£¿§·È
+@brief Å¨Ëõ¿§·È
 @version 0.0.0.1
-@date 2014-2-9
+@date 2014-2-11
 */
 #pragma once
 
 #include "Beverage.h"
 
-class CHouseBlend : public CBeverage
+class CEspresso : public CBeverage
 {
 public:
-	CHouseBlend();
-	~CHouseBlend();
+	CEspresso();
+	~CEspresso();
 	
 	double Cost();
 

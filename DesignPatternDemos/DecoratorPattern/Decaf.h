@@ -1,19 +1,19 @@
 /**
-@file HouseBlend.h
+@file Decaf.h
 @author ChumpMa#gmail.com
-@brief º“≥£øß∑»
+@brief Õ—øß∑»“Úøß∑»
 @version 0.0.0.1
-@date 2014-2-9
+@date 2014-2-11
 */
 #pragma once
 
 #include "Beverage.h"
 
-class CHouseBlend : public CBeverage
+class CDecaf : public CBeverage
 {
 public:
-	CHouseBlend();
-	~CHouseBlend();
+	CDecaf();
+	~CDecaf();
 	
 	double Cost();
 
