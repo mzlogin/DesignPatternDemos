@@ -8,6 +8,8 @@
 
 #pragma once
 
+#include <Windows.h>
+
 class CSingleton
 {
 public:
@@ -24,4 +26,5 @@ private:
     CSingleton();
     
     static CSingleton* m_sUniqueInstance;
+    static HANDLE m_hSync;
 };
