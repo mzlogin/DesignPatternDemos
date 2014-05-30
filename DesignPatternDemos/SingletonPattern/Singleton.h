@@ -25,6 +25,6 @@ public:
 private:
     CSingleton();
     
-    static CSingleton* m_sUniqueInstance;
+    volatile static CSingleton* m_sUniqueInstance;
     static HANDLE m_hSync;
 };

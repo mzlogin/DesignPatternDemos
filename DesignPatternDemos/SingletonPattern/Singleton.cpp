@@ -1,6 +1,6 @@
 #include "Singleton.h"
 
-CSingleton* CSingleton::m_sUniqueInstance = NULL;
+volatile CSingleton* CSingleton::m_sUniqueInstance = NULL;
 HANDLE CSingleton::m_hSync = ::CreateEvent(NULL, FALSE, TRUE, NULL);
 
 CSingleton::CSingleton()
@@ -19,7 +19,7 @@ CSingleton* CSingleton::GetInstance()
         SetEvent(m_hSync);
 	}
 
-    return m_sUniqueInstance;
+    return (CSingleton*)m_sUniqueInstance;
 }
 
 void CSingleton::ReleaseInstance()
