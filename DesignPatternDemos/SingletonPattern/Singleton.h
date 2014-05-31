@@ -16,7 +16,7 @@ public:
     static CSingleton* GetInstance();
 
     /** 
-    释放单例，应仅限于所有对单例类的使用完成后使用
+    释放单例，应仅限于所有对单例对象的使用完成后调用
     */
     static void ReleaseInstance();
 
@@ -24,6 +24,8 @@ public:
 
 private:
     CSingleton();
+	CSingleton(const CSingleton&);  // private and not implement copy constructor
+	CSingleton& operator=(const CSingleton&); // private and not implement = operator
     
     volatile static CSingleton* m_sUniqueInstance;
     static HANDLE m_hSync;
