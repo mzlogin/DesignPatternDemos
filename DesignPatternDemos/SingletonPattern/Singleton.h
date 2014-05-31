@@ -24,8 +24,8 @@ public:
 
 private:
     CSingleton();
-	CSingleton(const CSingleton&);  // private and not implement copy constructor
-	CSingleton& operator=(const CSingleton&); // private and not implement = operator
+	CSingleton(const CSingleton&);  // private and not implemented copy constructor
+	CSingleton& operator=(const CSingleton&); // private and not implemented = operator
     
     volatile static CSingleton* m_sUniqueInstance;
     static HANDLE m_hSync;
